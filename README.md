@@ -1,5 +1,10 @@
 # helm-guide
 
+Install Helm linux
+```bash
+curl -s https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
+```
+
 INITIALIZE A HELM CHART REPOSITORY
 ```bash
 helm repo add stable https://kubernetes-charts.storage.googleapis.com/
