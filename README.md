@@ -10,6 +10,11 @@ INITIALIZE A HELM CHART REPOSITORY
 helm repo add stable https://kubernetes-charts.storage.googleapis.com/
 ```
 
+get the code from helm repo
+```bash
+helm fetch --untar stable/nginx-ingress
+```
+
 Once this is installed, you will be able to list the charts you can install
 ```bash
 helm search repo stable
