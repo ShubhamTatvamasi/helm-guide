@@ -29,3 +29,8 @@ rollback to previous state
 ```bash
 helm rollback nginx
 ```
+
+uninstall app
+```bash
+helm uninstall nginx
+```
