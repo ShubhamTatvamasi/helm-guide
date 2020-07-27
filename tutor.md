@@ -25,7 +25,7 @@ install
 ```bash
 helm install metrics-server stable/metrics-server -n metrics-server
 helm install nginx-ingress nginx-stable/nginx-ingress -n nginx-ingress
-helm install cert-manager jetstack/cert-manager -n cert-manager
+helm install cert-manager jetstack/cert-manager -n cert-manager --set installCRDs=true
 helm install kubernetes-dashboard k8s-dashboard/kubernetes-dashboard -n kubernetes-dashboard
 ```
 
