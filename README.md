@@ -1,5 +1,11 @@
 # helm-guide
 
+Generate values schema:
+```bash
+helm plugin install https://github.com/karuppiah7890/helm-schema-gen.git
+helm schema-gen values.yaml > values.schema.json
+```
+
 Install Helm linux
 ```bash
 curl -s https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
